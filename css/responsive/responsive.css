@@ -1,0 +1,9 @@
+@import "feature.css";
+@import "faq.css";
+@import "download.css";
+@media screen and (max-width: 600px) {
+	html {
+		width: auto;
+		/*background-color: lightblue;*/
+	}
+}

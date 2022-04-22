@@ -1,0 +1,16 @@
+/**
+ * Footer
+ */
+.footer {
+	/*background-color: blue;*/
+	height: 64px;
+}
+.footer a {
+	/*background-color: orange;*/
+	margin-left: 12px;
+	margin-right: 12px;
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+	line-height: 64px;
+}

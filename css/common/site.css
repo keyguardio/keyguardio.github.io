@@ -1,0 +1,17 @@
+@import "misc/reset.css";
+@import "misc/align.css";
+@import "header.css";
+@import "footer.css";
+html {
+	width: 960px;
+}
+body {
+  background-color: #1B0442;
+  /*font-family: 'Helvetica', 'Arial', sans-serif;*/
+  font-family: 'Montserrat', sans-serif;
+}
+html, body {
+  margin: auto; /*centers things*/
+  background-color: #1B0442;/*#043F42*/
+  color: white;
+}

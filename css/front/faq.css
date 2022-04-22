@@ -1,0 +1,116 @@
+/**
+ * Faq
+ */
+ul.faqs {
+	/* background-color: pink; */
+	padding: 0px;
+	padding-top: 0px;
+	padding-left: 24px;
+	padding-right: 24px;
+	margin: 0px;
+	margin-top: 0px;/*we want space between elements, not around*/
+	margin-bottom: 0px;/*we want space between elements, not around*/
+}
+ul.faqs li {
+	height: auto;
+	overflow: auto;
+	display: block;
+	background-color: #4F4BC3;/*#004751*/
+	margin-top:24px;
+	margin-left: 12px;
+	margin-right: 12px;
+	margin-bottom: 24px;
+	border-radius: 20px;
+}
+/**
+ * Expanded
+ */
+ul.faqs li.expand:target {
+	background-color: white;
+	color: #4F4BC3;
+}
+/**
+ * - Note: We use span to target the link, since there is a link in answer as well
+ */
+ul.faqs li .top {
+	padding-left: 32px;
+	padding-right: 32px;
+	padding-top: 32px;
+	padding-bottom: 32px;
+	height: auto;
+	display: block;
+	text-decoration: none;
+	margin: auto;
+	overflow: auto;
+	overflow-y: hidden;/* hides the scrll-bar, bug */
+	color: white;
+}
+ul.faqs li .top .left {
+	width: calc(100% - 64px);
+	font-weight: bold;
+	float: left;
+	clear: none;
+	text-align: left;
+	font-size: 32px;
+	/*color: white;*//*#00D47F*/
+}
+ul.faqs li .top .right {
+	float: right;
+	clear: none;
+	width: auto;
+	height: auto;
+	color: white;/*#00D47F*/
+	text-align: center;
+	font-size: 32px;
+}
+/**
+ * Top expanded
+ */
+ul.faqs li.expand:target .top {
+	padding-bottom: 0px;
+	background-color: white;
+	color: #4F4BC3;
+}
+/**
+ * Bottom (in-active)
+ */
+ul.faqs li .bottom {
+	padding-left: 32px;
+	padding-right: 32px;
+	width: calc(100% - 64px);
+	display: none; /*default is hidden*/
+	clear: both;
+	float: left;
+	padding-bottom: 32px;
+	font-size: 22px;
+	margin-top: 24px;
+}
+/**
+ * Bottom (active)
+ * - Note: The active state of the list item
+ * - Note: expand:target means active
+ * - Note: expand:target is set when link is clicked and url js call is made #q2 etc
+ */
+ul.faqs li.expand:target .bottom {
+	 display: block; /*show when active*/
+	 height: auto;
+	 background-color: white;
+	 color: #4F4BC3;
+}
+/**
+ * Disclosure btns
+ */
+ul.faqs li .top .right .minus {
+	display: none;
+}
+/**
+ * Disclosure btns - Expanded
+ */
+ul.faqs li.expand:target .top .right .plus {
+	display: none;
+	color: #4F4BC3;
+}
+ul.faqs li.expand:target .top .right .minus {
+	display: block;
+	color: #4F4BC3;
+}

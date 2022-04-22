@@ -1,0 +1,46 @@
+/**
+ * Features
+ */
+.features {
+	/*background-color: cyan;*/
+	width: 100%;
+	margin: 0px; /* for some reason important to get center align working */
+	height: auto;
+	margin-top: 12px;
+	padding: 0px;
+	padding-top: 12px;
+	padding-bottom: 0px;
+	padding-left: 24px;
+	padding-right: 24px;
+	box-sizing: border-box;/* Avoids padding outside parent width */
+}
+.feature {
+	float: left;
+	clear: none;
+	width: 33.333%; /*⚠️️ we could also use flex grid from blog here*/
+	border-radius: 20px;
+	background-color: #4F4BC3;/*#004751*/
+	min-height: 240px;
+	margin-left: 12px;
+	margin-right: 12px;
+	margin-bottom: 24px;
+}
+.feature h3 {
+	margin-left: 32px;
+	margin-right: 32px;
+	/*background-color: gray;*/
+	/*height: 64px;
+	line-height: 64px;*/
+	padding-top:36px;
+	padding-bottom:16px;
+	font-size: 26px;
+	font-weight: bold;
+	color: white;/*#00D47F*/
+}
+.feature p {
+	margin-left: 32px;
+	margin-right: 32px;
+	font-size: 22px;
+	padding-bottom:32px;
+	/*background-color: purple;*/
+}

@@ -1,0 +1,31 @@
+/**
+ * Download
+ */
+.download {
+	/*background-color: yellow;*/
+	height: auto;
+	padding: 24px;
+	padding-bottom: 0px;
+	padding-top: 12px;
+}
+.download a {
+	font-weight: bold;
+	text-align: center;
+	width: 224px;
+	background-color: white;
+	height: 100%;
+	line-height: 64px;
+	padding-left: 24px;
+	padding-right: 24px;
+	margin-left: 12px;
+	margin-right: 12px;
+	margin-bottom: 24px;
+	border-radius: 20px;
+	font-size: 20px;
+	color: #4F4BC3;/*#043F42*/
+	text-decoration: none;
+}
+.download a.ios {
+	background-color: #4F4BC3;/*#00D47F*/
+	color: white;/*#043F42*/
+}

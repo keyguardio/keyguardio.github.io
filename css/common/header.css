@@ -1,0 +1,37 @@
+/**
+ * Header
+ */
+header {
+	text-align: center;
+	margin: auto; /* for some reason important to get center align working */
+	/*background-color: purple;*/
+	height: auto;
+}
+header img {
+	/*background-color: green;*/
+	padding-top: 48px;
+	padding-bottom: 24px;
+	width: 160px;
+	height: 160px;
+}
+header h1 {
+	/*background-color: gray;*/
+	color: white;
+	font-size: 42px;
+	font-weight: bold;
+	/*height: 64px;
+	line-height: 64px;*/
+	padding: 12px;
+}
+header h1 span {
+	color: #4F4BC3;/*#00D47F*/
+}
+header h2 {/*slogan*/
+	/*background-color: pink;*/
+	/*line-height: 64px;*/
+	font-size: 32px;
+	font-weight: bold;
+	font-style: italic;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}

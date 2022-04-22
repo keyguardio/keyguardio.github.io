@@ -1,0 +1,17 @@
+@import "../common/site.css";
+@import "download.css";
+@import "feature.css";
+@import "faq.css";
+@import "../responsive/responsive.css";
+/**
+ * Headlines
+ */
+h2.headline {
+   /*background-color: brown;*/
+	/*line-height: 64px;*/
+	font-size: 32px;
+	text-align: center;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+}

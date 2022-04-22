@@ -1,0 +1,18 @@
+@media screen and (max-width: 600px) {
+	.features.center {
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+		  flex-direction: column;
+		  padding-left: 32px;
+		  padding-right: 32px;
+	}
+	.feature {
+		/*background-color: pink;*/
+		width: 100%;
+		clear: both;
+		float: none;
+		margin-bottom: 24px;
+		min-height: auto;
+	}
+}
