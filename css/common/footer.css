@@ -3,7 +3,10 @@
  */
 .footer {
 	/*background-color: blue;*/
-	height: 64px;
+	/*height: 64px;*/
+	padding-top: 24px;
+	padding-bottom: 24px;
+	margin-bottom: 12px;
 }
 .footer a {
 	/*background-color: orange;*/
@@ -12,5 +15,5 @@
 	font-size: 20px;
 	text-decoration: none;
 	color: white;
-	line-height: 64px;
+	/*line-height: 64px;*/
 }
